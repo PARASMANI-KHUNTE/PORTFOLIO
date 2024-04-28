@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Tech Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-blue-500 p-4">
+        <nav>
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <img class="w-12 h-12 rounded-full"
+                        src="https://i.pinimg.com/564x/f8/e9/2b/f8e92b972909ddb6eb93e491a22887ea.jpg" alt="LOGO">
+                    <h4 class="text-white text-lg font-semibold">PARAS</h4>
+                </div>
+                <!-- <ul class="flex space-x-4 text-white">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#project" class="hover:underline">Projects</a></li>
+                </ul> -->
+            </div>
+        </nav>
+    </header>
+    <div class="bg-gray-100 py-20 text-center">
+        <h1 class="text-4xl font-bold">PARAS</h1>
+        <p class="text-gray-600 text-lg">Code with Paras!!</p>
+        <button class="bg-blue-500 text-white px-8 py-2 mt-4 hover:bg-blue-600" onclick="hireMe()">Hire Me</button>
+        <button class="bg-blue-500 text-white px-8 py-2 mt-4 hover:bg-blue-600" onclick="downloadCV()">Download CV</button>
+    </div>
+    <section class="live-projects">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Live Projects</h2>
+            <div class="overflow-x-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+                    <div class="live-project-card bg-white rounded-lg overflow-hidden shadow-md">
+                        <div class="px-6 py-4">
+                            <h3 class="live-project-card-title text-xl font-semibold mb-2">Confession Page</h3>
+                            <p class="live-project-card-desc text-gray-700 mb-4">Confession Page is a platform where users can anonymously share their confessions.</p>
+                            <p class="live-project-tech-used text-gray-600">Tech Used: HTML, CSS, JS, Node, MongoDB, Express</p>
+                        </div>
+                        
+                        <div class="px-6 pt-4 pb-2">
+                            <a href="https://confessionpage.onrender.com" class="live-project-link">
+                                <button class="bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">View Project</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="live-project-card bg-white rounded-lg overflow-hidden shadow-md">
+                        <div class="px-6 py-4">
+                            <h3 class="live-project-card-title text-xl font-semibold mb-2">Attendance App</h3>
+                            <p class="live-project-card-desc text-gray-700 mb-4">Attendance App is a web application for managing attendance records.</p>
+                            <p class="live-project-tech-used text-gray-600">Tech Used: HTML, CSS, JS, Node, MongoDB, Express</p>
+                        </div>
+                        <div class="px-6 pt-4 pb-2">
+                            <a href="https://attendance-app-8m86.onrender.com" class="live-project-link">
+                                <button class="bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">View Project</button>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="live-project-card bg-white rounded-lg overflow-hidden shadow-md">
+                        <div class="px-6 py-4">
+                            <h3 class="live-project-card-title text-xl font-semibold mb-2">Paralex Portfolio</h3>
+                            <p class="live-project-card-desc text-gray-700 mb-4">Paralex Portfolio is a personal portfolio website showcasing projects and skills.</p>
+                            <p class="live-project-tech-used text-gray-600">Tech Used: HTML, CSS, JS</p>
+                        </div>
+                        <div class="px-6 pt-4 pb-2">
+                            <a href="https://parasmani-khunte-portfolio.onrender.com" class="live-project-link">
+                                <button class="bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">View Project</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Repeat similar structure for other live projects -->
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section>
+        
+        <div class="bg-gray-200 py-20 text-center" id="project">
+            <h1 class="text-2xl font-bold">PROJECTS</h1>
+            <p class="text-gray-600">These are my Projects.</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+                <div class="max-w-md bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Web-Tech</div>
+                        <p class="text-gray-700 text-base">
+                            Explore my projects related to Web Technologies.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <a href="https://github.com/PARASMANI-KHUNTE" class="text-blue-500 hover:underline">View Projects</a>
+                    </div>
+                </div>
+                <div class="max-w-md bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">AI / ML</div>
+                        <p class="text-gray-700 text-base">
+                            Explore my projects related to Artificial Intelligence and Machine Learning.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <a href="https://github.com/PARASMANI-KHUNTE" class="text-blue-500 hover:underline">View Projects</a>
+                    </div>
+                </div>
+                <div class="max-w-md bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Data Mining</div>
+                        <p class="text-gray-700 text-base">
+                            Explore my projects related to Data Mining.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <a href="https://github.com/PARASMANI-KHUNTE" class="text-blue-500 hover:underline">View Projects</a>
+                    </div>
+                </div>
+                <div class="max-w-md bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Data Science</div>
+                        <p class="text-gray-700 text-base">
+                            Explore my projects related to Data Science.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <a href="https://github.com/PARASMANI-KHUNTE" class="text-blue-500 hover:underline">View Projects</a>
+                    </div>
+                </div>
+                <div class="max-w-md bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Robotics</div>
+                        <p class="text-gray-700 text-base">
+                            Explore my projects related to Robotics.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <a href="https://github.com/PARASMANI-KHUNTE" class="text-blue-500 hover:underline">View Projects</a>
+                    </div>
+                </div>
+                <div class="max-w-md bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">IoT</div>
+                        <p class="text-gray-700 text-base">
+                            Explore my projects related to Internet of Things (IoT).
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <a href="https://github.com/PARASMANI-KHUNTE" class="text-blue-500 hover:underline">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <h6>Powered by PARAS </h6>
+        <!-- <h6>License CC 2024, All Rights Reserved.</h6> -->
+
+        <ul class="flex justify-center space-x-4 mt-4">
+            <li><a href="https://www.youtube.com/channel/UCt5H_zOkoDDikOPBuNpPRRg" class="hover:text-blue-500">Youtube</a></li>
+            <li><a href="https://www.linkedin.com/in/parasmani-khunte-330488228/" class="hover:text-blue-500">LinkedIn</a></li>
+            <li><a href="https://github.com/PARASMANI-KHUNTE" class="hover:text-blue-500">GitHub</a></li>
+            <!-- <li><a href="#" class="hover:text-blue-500">TwiterX</a></li>
+            <li><a href="#" class="hover:text-blue-500">Facebook</a></li> -->
+            <li><a href="https://www.instagram.com/ll.__.p.a.r.a.s.__.ll/" class="hover:text-blue-500">Instagram</a></li>
+            <li><a href="#" onclick="redirectToWhatsApp()" class="hover:text-blue-500">WhatsApp</a></li>
+        </ul>
+    </footer>
+    <script>
+        function hireMe() {
+    // Define subject and body for the email
+    var subject = encodeURIComponent("Hiring Inquiry");
+    var body = encodeURIComponent("Hello Paras Mani Khunte,\n\nI'm interested in discussing potential opportunities with you. Please let me know when you're available for a conversation.\n\nBest regards,");
+    
+    // Construct the mailto link with subject and body
+    var mailtoLink = `mailto:parasmani.khunte@gmail.com?subject=${subject}&body=${body}`;
+
+    // Redirect to Gmail with pre-filled email
+    window.location.href = mailtoLink;
+}
+    
+function redirectToWhatsApp() {
+    var phoneNumber = "+918103713757";
+    var whatsappLink = `https://wa.me/${phoneNumber}`;
+    window.location.href = whatsappLink;
+}
+
+
+function downloadCV() {
+    // Replace 'cv_filename.pdf' with the actual filename of your CV
+    var cvFilename = 'ParasmaniKhunte.pdf';
+   // Create a temporary link element
+   var link = document.createElement('a');
+   link.href = cvFilename;
+   link.download = cvFilename; // Set the filename for the downloaded file
+   
+   // Append the link to the body
+   document.body.appendChild(link);
+   
+   // Trigger the click event on the link to start the download
+   link.click();
+   
+   // Remove the link from the body once the download is initiated
+   document.body.removeChild(link);;
+}
+    
+
+
+    </script>
+</body>
+
+</html>
