@@ -41,17 +41,21 @@ Here are some of the live projects featured on my portfolio:
    - A dynamic social platform for text-based posts and discussions.
    - [View Project](https://social-media-application-82ss.onrender.com)
 
+6. **PHOTOSHARE**
+   - A platform to share your Stories.
+   - [view Project](https://photoshare-g7sf.onrender.com)
+
 ## How to Run the Code
 
 To run this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/PARASMANI-KHUNTE/paras-portfolio-2024.git
+    git clone https://github.com/PARASMANI-KHUNTE/PORTFOLIO.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd paras-portfolio-2024
+    cd PORTFOLIO
     ```
 3. Open the `index.html` file in your preferred web browser.
 
